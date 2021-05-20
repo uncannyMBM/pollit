@@ -1,0 +1,49 @@
+[v-cloak]{
+    display: none;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+/*Poll progress bar*/
+
+li {
+    display: block;
+    border: solid 1px #ddd;
+    padding: 14px;
+    margin-bottom: 10px;
+    position: relative;
+}
+li .perc-back {
+    background: #d2dfe5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+}
+
+label.poll-result-label {
+    position: relative;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+li.correct .poll-result-label:before {
+    content: url('http://img.qa01.medscapestatic.com/pi/videoplayer/icons/qna-correct.png');
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: -5px;
+    margin-right: 6px;
+}
+
+.perc-number {
+    float: right;
+}
