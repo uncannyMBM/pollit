@@ -1,7 +1,7 @@
-##Poll it is a poll free poll application
-#####you can easily share with friends, family, colleagues at work, and the world. No sign up required.
+## Poll it is a poll free poll application
+##### you can easily share with friends, family, colleagues at work, and the world. No sign up required.
 
-###How to install the project?
+### How to install the project?
 After downloading the project form this repository go to the project directory and open cmd prompt or terminal and run
 
 <pre>composer update</pre>
