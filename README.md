@@ -10,6 +10,10 @@ Run the above command to download all dependencies.
 #### Configure project environment
 To configure the project environment just copy .env.example file and paste it and rename it with .env
 
+#### Generate app key
+To run the project you need to generate the app key. Go to your cmd prompt or terminal and run 
+<pre>php artisan key:generate</pre>
+
 #### Configure database
 Go to .env file and change below lines
 
@@ -21,4 +25,4 @@ DB_PASSWORD=your_database_password (Leave blank if you don't have any)
 
 #### Migrate the project Schema
 Now go to your cmd prompt or terminal and run 
-<pre>php artisan:migrate</pre>
+<pre>php artisan migrate</pre>
